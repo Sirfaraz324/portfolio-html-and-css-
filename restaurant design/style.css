@@ -1,0 +1,29 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+}
+
+hr {
+  margin-top: 0;
+  width: 70%;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 20px;
+}
+
+hr + p {
+  margin-top: 40px; /* No space between 40 and px */
+}
+
+p {
+  margin-left: 195px;
+}
+
+  
