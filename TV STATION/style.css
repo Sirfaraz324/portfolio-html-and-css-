@@ -1,0 +1,28 @@
+table,
+th,
+td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+th,
+td {
+  padding: 5px;
+  text-align: left;
+}
+table td:nth-child(8) {
+  border-right: none;
+}
+table,
+th,
+td {
+  border-collapse: collapse;
+}
+td {
+  vertical-align: top;
+}
+td {
+  vertical-align: top;
+}
+td {
+  text-align: center;
+}
