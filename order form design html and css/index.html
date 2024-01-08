@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Order Form</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<h2 style="color: darkblue">Order Form</h2>
+<form>
+<table style="margin-left:px;">
+<div style="margin-left:17px;">
+Name: <input type="text" name="firstname" size="34">
+</div>
+<div style="margin-left:17px;margin-top:4px;">
+Email: <input type="text" id="email" name="email" size="34">
+</div>
+<div style="margin-left:3px;margin-top:4px;">
+Address: <textarea name="address" id="address" cols="29" rows="5"></textarea>
+</div>
+<div style="margin-left:2px;margin-top:4px;">
+Postcode:<input type="text" name="postcode" size="20">
+</div>
+</table>
+<br />
+<table>
+<tr>
+<td>Product</td>
+<td>Part Number</td>
+<td>Quantity</td>
+<td>Price</td>
+<td style="width: 35%; text-align: left">Total</td>
+</tr>
+<tr>
+<td>Tires</td>
+<td>LB190</td>
+<td>4</td>
+<td>R5</td>
+<td>R20</td>
+</tr>
+<tr>
+<td>Gear Box</td>
+<td>LV330</td>
+<td>7</td>
+<td>R10</td>
+<td>R70</td>
+</tr>
+<tr>
+<td>Car Seats</td>
+<td>BE300</td>
+<td>7</td>
+<td>R15</td>
+<td>R105</td>
+</tr>
+<tr>
+<td>Windscreen</td>
+<td>LB400</td>
+<td>5</td>
+<td>R20</td>
+<td>R100</td>
+</tr>
+<tr>
+<td>Mags</td>
+<td>LB500</td>
+<td>54</td>
+<td>R30</td>
+<td>R1620</td>
+</tr>
+<tr>
+<td colspan="4" style="text-align: right">Total:</td>
+<td>R</td>
+</tr>
+</table>
+<table>
+<br />
+<b>Credit card details</b>
+<br />
+<p2>Card Type:</p2>
+<div>
+<label for="card"></label
+><input type="radio" id="card" value="card" name="card" />Mastercard
+&emsp;&emsp;&emsp; Card Number: <label for="card"></label
+><input
+type="text"
+maxlength="50"
+id="card"
+name="card"
+style="margin-left: 4px"
+/><br />
+<label for="card"></label
+><input type="radio" id="card" value="card" name="card" />Visa
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Expire Date:
+<input
+type="text"
+id="card"
+placeholder="mm/yy"
+size="15"
+style="margin-left: 14px"
+/>
+<br />
+<input
+type="radio"
+id="American Express"
+name="American express"
+value="american express"
+/>
+<label for="Aexpresss">American Express</label><br />
+<input
+type="radio"
+id="Diners Club"
+name="Diners Club"
+value="Diners Club"
+/>
+<label for="Dclub">Diners Club</label><br />
+<br />
+<tr>
+<td>Delivert Address:</td>
+<td><textarea name="textfield3" cols="25" rows="5"></textarea></td>
+</tr>
+</table>
+<br>
+<input type="submit" value="Send Order" />
+<input type="reset" value="Clear Form" />
+</div>
+</form>
+</body>
+</html>
